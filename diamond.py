@@ -1,7 +1,7 @@
 import streamlit as st
-import pickel
-pickel_in=open('diamond.pkl','rb')
-mond=pickel.load(pickel_in)
+import pickle
+pickle_in=open('diamond.pkl','rb')
+mond=pickle.load(pickle_in)
 a=st.number_input('carat')
 b=st.number_input('cut')
 c=st.number_input('color')
